@@ -1,16 +1,1 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>كودات الجوائز</title>
-</head>
-<body>
-    <script>
-        const validCodes = ["1", "10", "100", "2", "20", "200", "3", "30", "300", "4", "40", "400", "5", "50", "500", "6", "60", "600", "7", "70", "700", "8", "80", "800", "9", "90", "900"];
-        
-        // تحويل الأكواد إلى JSON وإعادتها كاستجابة
-        document.body.innerText = JSON.stringify(validCodes);
-    </script>
-</body>
-</html>
+["1", "10", "100", "2", "20", "200", "3", "30", "300", "4", "40", "400", "5", "50", "500", "6", "60", "600", "7", "70", "700", "8", "80", "800", "9", "90", "900"]
